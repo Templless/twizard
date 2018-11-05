@@ -1,0 +1,1 @@
+!function(n,r){"use strict";r={globalProgress:null,init:function(){n("#twizard-export").on("click",function(r){var t=n(this),o=t.attr("href");r.preventDefault(),window.location=o+"&nonce="+window.TwizardDataExportVars.nonce})}},r.init()}(jQuery,window.TwizardDataExport);
